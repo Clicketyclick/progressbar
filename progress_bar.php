@@ -114,9 +114,6 @@ function show_status($done, $total, $size=30) {
     ,   $total
     );
 
-    //$status_bar.= " remaining: ".number_format($eta)." sec. elapsed: ".number_format($elapsed)." sec.";
-    //$status_bar.= sprintf( " remaining \u{023F3}: %*s sec. elapsed \u{023F1}: %*s sec. eta \u{1D702} %*s "
-    //$status_bar.= sprintf( " remain.\u{29D5}: %*s sec. elap.\u{29D4}: %*s sec. eta.\u{1D702} %*s "
     $status_bar.= sprintf( " elap.\u{29D4}: %*s sec. remain.\u{29D5}: %*s sec. eta.\u{1D702} %*s "
     ,   $timeframe, number_format($elapsed)
     ,   $timeframe, number_format($eta)
@@ -124,9 +121,6 @@ function show_status($done, $total, $size=30) {
     );
  
     echo "$status_bar  ";
-    //fputs( STDERR, "$status_bar " );
- 
-    //flush();
  
     // when done, send a newline
     if($done == $total) {
