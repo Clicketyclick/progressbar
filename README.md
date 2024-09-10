@@ -1,4 +1,4 @@
-# Progress bar
+# Progress bar 1.0.2
 
 Show a status bar in the console
 
