@@ -26,4 +26,4 @@ Building up till:
 
 - [progressbar.php](progressbar.php)
 - [progress_bar__test.php](progress_bar__test.php) Testing `progress_bar.php`
-- [progress_bar__test.json](progress_bar__test.json) Expected output from test
+- [progress_bar__test.json](progress_bar__test.json) Expected output from test to be match against actual output
